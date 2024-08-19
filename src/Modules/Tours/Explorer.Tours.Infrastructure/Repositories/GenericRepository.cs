@@ -1,3 +1,4 @@
+using Explorer.Tours.Infrastructure.Database;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;

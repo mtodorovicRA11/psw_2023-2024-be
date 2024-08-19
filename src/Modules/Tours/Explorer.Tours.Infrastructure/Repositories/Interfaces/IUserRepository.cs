@@ -3,10 +3,7 @@ using Explorer.Tours.Infrastructure.Database;
 
 namespace Explorer.Tours.Infrastructure.Repositories
 {
-	public class UserRepository : GenericRepository<User>, IUserRepository
+	public interface IUserRepository : IGenericRepository<User>
 	{
-		public UserRepository(ToursContext context) : base(context)
-		{
-		}
 	}
 }
